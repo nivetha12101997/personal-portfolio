@@ -1,0 +1,30 @@
+h1{
+    color:palevioletred;
+}
+td{
+    color: orangered;
+}
+p{
+    color:violet;
+}
+h2{
+    color: yellowgreen;
+
+}
+th{
+    color: rgb(43, 151, 0);
+}
+li{
+    color: saddlebrown;
+}
+.myclass{
+    color:navy;
+}
+.font
+{
+    color:fuchsia;           ;
+}
+.mycolor
+{
+    color:indigo;
+}
