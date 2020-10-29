@@ -5,20 +5,32 @@
     <link rel="stylesheet" href="css/style.css"
   </head>
   <body>
+    <div class="nav">
+      <a href="#objective">objective</a>
+      <a href="#ed">education</a>
+      <a href="#skills">skills</a>
+    </div>
+
+    
     <div class="container">
       <h1>Resume</h1>
       <h2>Nivetha.S</h2>
+      <div>
       <p>
         <a href="tel:+733-920-5096">contact me</a><br >
         <a href="mailto:nivethabe1997@gmail.com" target="_blank">nivethabe1997@gmail.com</a>
       </p>
-      <h2>Objective:</h2>
+      </div>
+      
+      <div id="objective">
+        <h2>Objective:</h2>
       <p>
         To seek a dynamic and challenging career in an organisation for making
         positive contribution towardsthe organisation and to find an environment
         where I could materialize my professional knowledge and interpersonal
         skills for mutual benefits of the organisation and myself
-      </p>
+      </p></div>
+      <div id="ed">
       <h2 class="myclass">Educational qualification:</h2>
       <table border="6" width="80%">
         <tr class="edu_details">
@@ -46,6 +58,8 @@
           <td class="mark">97</td>
         </tr>
       </table>
+      </div>
+      <div id="skills">
       <h2>Skills:</h2>
       <ul class="skill">
         <li>
@@ -61,6 +75,7 @@
           :Mysql
         </li>
       </ul>
+      </div>
       <h2>Personal Details:</h2>
       <table class="mytab">
         <tr>
@@ -114,6 +129,7 @@
           <label for="cpassword">confirm password:</label>
           <input type="password" id="cpassword" name="confirm"/>
         </div>
+
         <div>
           <label >Gender  :</label>
           <label for="male">MALE</label>
@@ -121,6 +137,7 @@
           <label for="female">FEMALE</label>
           <input type="radio" id="female" name="gender"/>
         </div>
+
         <div>
           <label>known language</label>
           <input type="checkbox" id="English" name="languages"/>
@@ -128,6 +145,7 @@
           <input type="checkbox" id="Tamil" name="languages"/>
           <label for="Tamil">TAMIL</label>
         </div>
+
         <div>
           <label for="selection">country</label>
           <select id="selection" name="countryname">
@@ -138,6 +156,7 @@
             <option>MALAYSIA</option>
           </select>
         </div>
+
         <div>
           <label for="bio">bio-details</label>
           <textarea id="bio" name="biodetails"></textarea>

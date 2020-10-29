@@ -1,115 +1,111 @@
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.container
-{
-    width:50%;
-    margin:0 auto;
-    background-color: lawngreen;
-    background-image: url(../images/work.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+.container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: lawngreen;
+  background-image: url(../images/work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-h1{ text-decoration: underline;
-    text-decoration-color: yellow;
-    text-align: center;
-    color:palevioletred;
-}
-
-h2{ 
-     margin:10px 10px 10px 10px;
-     /*padding:0px 40px 30px 40px;*/
-     padding:10px auto 10px 0;
-     color: yellowgreen;
-     text-shadow: tomato;
-     text-decoration-line: underline;
- 
- }
-td{ font-family: cursive;
-    font-style: italic;
-    text-align: left;
-    color: orangered;
-}
-p{  
-    font-family:cursive;
-    font-style: italic;
-    text-indent: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:violet;
-}
-th{ text-align: center;
-    color: rgb(43, 151, 0);
-}
-li{ text-align: left;
-    color: saddlebrown;}
-.myclass{
-    margin:10px auto 10px auto;
-    padding:10px 10px 10px 10px;
-    color:navy;
-}
-.font
-{
-    color:fuchsia;           
-}
-.mycolor
-{   margin:10px;
-    padding:50px 20px 50px 20px;
-    color:yellow;
+h1 {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-align: center;
+  color: palevioletred;
 }
 
-.mytab{
-    margin:10px;
-    padding: 10 auto;
-    border-color: rgb(233, 198, 4);
-    border-style: dotted;
-    border-width: 4px;  
+h2 {
+  margin: 10px 10px 10px 10px;
+  /*padding:0px 40px 30px 40px;*/
+  padding: 10px auto 10px 0;
+  color: yellowgreen;
+  text-shadow: tomato;
+  text-decoration-line: underline;
 }
-table{
-    padding: 0 auto 0  30px;
-    margin: 0 auto 0 30px;
-    border-color: orange;
-    }
-ul{
-    text-indent: 5%;
+td {
+  font-family: cursive;
+  font-style: italic;
+  text-align: left;
+  color: orangered;
 }
-tr{
-    width:30px;
-    margin:0 auto;
-    padding:0 auto;
+p {
+  font-family: cursive;
+  font-style: italic;
+  text-indent: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: violet;
 }
-.edu_details
-{
-    text-align: center;
-    margin:0 auto;
+th {
+  text-align: center;
+  color: rgb(43, 151, 0);
 }
-.year
-{
-    text-align: center;
-    color: skyblue;
-    font-size: large;
+li {
+  text-align: left;
+  color: saddlebrown;
 }
-.mark
-{
-    text-align: center;
-    color: blue;
-    font-size: large;
+.myclass {
+  margin: 10px auto 10px auto;
+  padding: 10px 10px 10px 10px;
+  color: navy;
 }
-.personal_detail
-{
-text-align: left;
-font-size: medium;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-style: oblique;
+.font {
+  color: fuchsia;
 }
-.skill
-{
-    box-sizing: border-box;
-    margin-left: 40px;
-    padding-left: 20px;
-    border:none;
+.mycolor {
+  margin: 10px;
+  padding: 50px 20px 50px 20px;
+  color: yellow;
+}
+
+.mytab {
+  margin: 10px;
+  padding: 10 auto;
+  border-color: rgb(233, 198, 4);
+  border-style: dotted;
+  border-width: 4px;
+}
+table {
+  padding: 0 auto 0 30px;
+  margin: 0 auto 0 30px;
+  border-color: orange;
+}
+ul {
+  text-indent: 5%;
+}
+tr {
+  width: 30px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.edu_details {
+  text-align: center;
+  margin: 0 auto;
+}
+.year {
+  text-align: center;
+  color: skyblue;
+  font-size: large;
+}
+.mark {
+  text-align: center;
+  color: blue;
+  font-size: large;
+}
+.personal_detail {
+  text-align: left;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+.skill {
+  box-sizing: border-box;
+  margin-left: 40px;
+  padding-left: 20px;
+  border: none;
 }
